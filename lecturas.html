@@ -64,32 +64,49 @@
     <div id="apDiv20"><a href="https://informacion.unad.edu.co/correo" target="_blank"><img src="img/rss_aqu_32.png" class="menu" title="Correo Institucional" border="0" /></a></div>
     <section>
     <h2>DESCRIPCIÓN DE METODOS DE ORDENACIÓN</h2>
+      <!-- Fuente: http://iutprogramacion.blogspot.com.co/2013/02/metodos-de-ordenamiento.html -->
+      <p>
+        Las estructuras de datos son utilizadas para almacenar información, por este motivo, para recuperarla esta debe estar ordenada. El ordenar un grupo de datos significa mover los datos o sus referencias para que queden en una secuencia tal que represente un orden, el cual puede ser numérico, alfabético o incluso alfanumérico, ascendente o descendente.<br> 
+        Existen diferentes metodos para ordenar las estructuras de datos, en este curso trataremos los de burbuja, selección e inserción.       
+      </p>
             <!--Menú con pestañas obtenido de: http://sinlevantar.blogspot.com.co/2012/11/tabs-menu-de-contenidos-con-pestanas.html-->
             <div id="contenedor">
               <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" checked="checked" />
-              <label for="tab-1" class="tab-label-1">Pestaña1</label>
+              <label for="tab-1" class="tab-label-1">Burbuja</label>
               
               <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
-              <label for="tab-2" class="tab-label-2">Pestaña2</label>
+              <label for="tab-2" class="tab-label-2">Selección</label>
               
               <input id="tab-3" type="radio" name="radio-set" class="tab-selector-3" />
-              <label for="tab-3" class="tab-label-3">Pestaña3</label>
-              
-              <input id="tab-4" type="radio" name="radio-set" class="tab-selector-4" />
-              <label for="tab-4" class="tab-label-4">Pestaña4</label>
+              <label for="tab-3" class="tab-label-3">Inserción</label>
                                       
               <div class="content">
                   <div class="content-1">
-                      Contenido1
+                        <a href="https://users.dcc.uchile.cl/~lmateu/CC10A/Apuntes/ordenamiento/" target="_blank" title="Algoritmo Burbuja">
+                        <img src="img/burbuja.gif" alt="Algoritmo Burbuja" align="middle">
+                      </a>
+                      <p>
+                        La ordenación de burbuja (Bubble sort) es un algoritmo de ordenamiento que funciona recorriendo cada uno de los elementos de la lista que se va a ordenar comparandolo con el siguiente, e intercambiandolos de posición si estan en el orden equivocado (según el criterio de ordenación). De esta forma se recorre varias veces la lista hasta que no se requieren mas intercambios, indicando que la lista ya se encuentra ordenada.<br> 
+                        Se denomina ordenación de burbuja ya que los elementos de la lista van subiendo a medida que se van ordenado como si fueran burbujas. Tambien se conoce como el metodo de intercambio directo. Es considerado un algoritmo de comparación, siendo el mas sencillo de implementar   
+                      </p>
                   </div>
                   <div class="content-2">
-                      Contenido2
+                      <a href="http://slideplayer.es/slide/26625/" target="_blank" title="Shell sort">
+                        <img src="img/shell.jpg" alt="Shell sort" align="middle">
+                      </a>
+                      <p>
+                        El ordenamiento Shell (Shell sort en inglés) es un algoritmo de ordenamiento. El método se denomina Shell en honor de su inventor Donald Shell. Su implementación original, requiere O(n²) comparaciones e intercambios en el peor caso. Un cambio menor presentado en el libro de V. Pratt produce una implementación con un rendimiento de O(n log² n) en el peor caso. Esto es mejor que las O(n²) comparaciones requeridas por algoritmos simples pero peor que el óptimo O(n log n). Aunque es fácil desarrollar un sentido intuitivo de cómo funciona este algoritmo, es muy difícil analizar su tiempo de ejecución.<br>
+                        El algoritmo Shell sort mejora el ordenamiento por inserción comparando elementos separados por un espacio de varias posiciones. Esto permite que un elemento haga "pasos más grandes" hacia su posición esperada. Los pasos múltiples sobre los datos se hacen con tamaños de espacio cada vez más pequeños. El último paso del Shell sort es un simple ordenamiento por inserción, pero para entonces, ya está garantizado que los datos del vector están casi ordenados.    
+                      </p>
                   </div>
                   <div class="content-3">
-                      Contenido3
-                  </div>
-                  <div class="content-4">
-                      Contenido4
+                      <a href="http://iutprogramacion.blogspot.com.co/2013/02/metodos-de-ordenamiento.html" target="_blank" title="Insertion sort">
+                        <img src="img/insercion.gif" alt="Insertion sort" align="middle">
+                      </a>
+                      <p>
+                        El ordenamiento por inserción (insertion sort en inglés) es una manera muy natural de ordenar para un ser humano, y puede usarse fácilmente para ordenar un mazo de cartas numeradas en forma arbitraria. Requiere O(n²) operaciones para ordenar una lista de n elementos. <br>
+                        Inicialmente se tiene un solo elemento, que obviamente es un conjunto ordenado. Después, cuando hay k elementos ordenados de menor a mayor, se toma el elemento k+1 y se compara con todos los elementos ya ordenados, deteniéndose cuando se encuentra un elemento menor (todos los elementos mayores han sido desplazados una posición a la derecha) o cuando ya no se encuentran elementos (todos los elementos fueron desplazados y este es el más pequeño). En este punto se inserta el elemento k+1 debiendo desplazarse los demás elementos.  
+                      </p>
                   </div>
               </div>
             </div>
