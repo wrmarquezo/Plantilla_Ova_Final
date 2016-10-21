@@ -393,9 +393,9 @@ p {
 /* Menú con pestañas*/
 #contenedor {
     margin: auto;
-    width: 530px;  /* Ancho del contenedor */
-box-sizing: border-box;
--moz-box-sizing: border-box;
+    width: 560px;  /* Ancho del contenedor */
+    box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 
 #contenedor input {
@@ -414,17 +414,17 @@ display: block;
 color: #888;  /* Color del texto de las pestañas */
 text-align: center;
 border-radius: 5px 5px 0 0;
-background: #eee;  /* Fondo de las pestañas */
+background: #003f5e;  /* Fondo de las pestañas */
 margin-right: 5px;
 }
 
 #contenedor input:hover + label {
-background: #ddd;  /* Fondo de las pestañas al pasar el cursor por encima */
+background: #FFDA91;  /* Fondo de las pestañas al pasar el cursor por encima */
 color: #666;  /* Color del texto de las pestañas al pasar el cursor por encima */
 }
 
 #contenedor input:checked + label {
-background: #FFDA91;  /* Fondo de las pestañas al presionar */
+background: #ddd;  /* Fondo de las pestañas al presionar */
 color: #444; /* Color de las pestañas al presionar */
 z-index: 6;
 line-height: 45px;
@@ -438,13 +438,14 @@ top: -5px;
 }
 
 .content {
-background: #FFDA91;  /* Fondo del contenido */
+background: #ddd;  /* Fondo del contenido  #FFDA91 */
 position: relative;
 width: 100%;
-height: 350px;  /* Alto del contenido */
-padding: 30px;
+height: 380px;  /* Alto del contenido */
+padding: 10px;
 z-index: 5;
 border-radius: 0 5px 5px 5px;
+overflow: auto;
 }
 
 .content div {
