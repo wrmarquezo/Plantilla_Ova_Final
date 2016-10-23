@@ -384,6 +384,10 @@ p{
 	text-decoration: none;
 }
 
+.menu li ul{
+	display: none;
+}
+
 /*SEUDO CLASES*/
 p {
 	font-size: 12px;
